@@ -45,6 +45,6 @@ For most distinctive words, we'll see that there are many other words that appea
 
 Where is the code for this project?
 
-### 7) Broader Application
+## 7) Broader Application
 
 Both the idea of character-space and the idea of MDW are drawing from the more general goal of distinguishing different texts. In this case, we are looking at the text belonging to different speakers. But this can be generalized to texts of different articles, Twitter users, Facebook profiles, etc. We could look at the "Character-Space" allotted to different articles on Wikipedia (either different languages or topics) or the most distinctive words across political candidates on Twitter or in their campaign speeches.
