@@ -1,7 +1,7 @@
 Rediscovering Text as Data
 ====================
 * **Instructors:** [Christopher Hench](http://german.berkeley.edu/author/chench/) & [Claudia von Vacano](http://dlab.berkeley.edu/claudia-von-vacano)
-* **Course Location:** Evans 458
+* **Course Location:** 310 Hearst Mining
 * **Course Time:** Monday 4-6pm
 * **Instructor's Office:** Barrows 350
 * **Instructor's Office Hours:** Thursday 10-11 AM
@@ -30,7 +30,7 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 |  1 - 8/28  | [Introduction](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/01-Text-as-Data/Intro.ipynb) |   | |
 |  2 - 9/11  | [Operationalizing](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/Operationalizing.ipynb) | (1) [Sophocles, *Antigone*](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/readings/Sophocles-Antigone-(selection).pdf); (2) [Moretti, "Operationalizing"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/readings/Moretti-Operationalizing.pdf)  | [Notebook](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/Operationalizing.ipynb) Exercises  |
 |  3 - 9/18 | Close Reading I  | (1) [Kafka, "The Judgement"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Kafka-The-Judgement.pdf); (2) [Berman, "Tradition and Betrayal in 'Das Urteil'"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Berman-Tradition-and-Betrayal.pdf); (3) Kafka's [short biography](https://en.wikipedia.org/wiki/Franz_Kafka#Life) on Wikipedia | Close Reading Paper - Assigned  |
-|  4 - 9/25 | Stylometry  | (1) Caedmon's Hymn; (2) Thornbury, "The Poet Alone"  | Notebook Exercises|
+|  4 - 9/25 | Stylometry & Strings  | (1) Caedmon's Hymn; (2) Thornbury, "The Poet Alone"  | Notebook Exercises|
 |  5 - 10/02  | Intro to NLTK & SpaCy  |   | Close Reading Paper - Due; Notebook Exercises |
 |  6 - 10/09  | Entity Extraction & Network Analysis  |  | Notebook Exercises  |
 |  7 - 10/16 | Textual Similarity & Clustering  |  | Notebook Exercises  |
@@ -45,15 +45,15 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 
 **Readings & Presentation:** All readings must be completed before class.
 
-Once during the semester, each student will be required to make a brief (5 minute) presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should conclude by raising a few questions that will spur our discussion.
+Once during the semester, each student will be required to make a brief (5 minute) presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should conclude by raising a few questions that will spur our discussion. Students must submit the summary that will guide the presentation following the [template](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/presentation-template.md).
 
-Additionally, once during the semester, each student will be required to be the first respondent. Minimally, the presenter will email the respondent (and me) their discussion questions the evening before class by 5 pm, so that the respondent has time to form a thoughtful, 2-minute response. The presenter and respondent may wish to coordinate beforehand but this is not required.
+Additionally, once during the semester, each student will be required to be the first respondent. Minimally, the presenter will email the respondent (and me) their presentation the evening before class by 5pm, so that the respondent has time to form a thoughtful, 2-minute response (which does not need to be submitted). The presenter and respondent may wish to coordinate beforehand, but this is not required.
 
 
 **Participation:** Please prepare to speak at least once during discussion, each class. Your voice is valuable and your perspective unique.
 
 
-**Close Reading Paper:** The first paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper will be written on one of the literary texts we have read in the first four weeks of class, and I will offer an optional prompt for each. The paper should be 2-3 pages (double-spaced) in length.
+**Close Reading Paper:** The first paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper will be written on one of the literary texts we have read in the first four weeks of class, and I will offer an optional prompt for each. The paper should be 2 pages (double-spaced) in length.
 
 
 **Final Project:** The course is built around the final project (which replaces the final exam). This consists of a 4-5 page (double-spaced) paper in which an argument is made about a text(s) using evidence from both inferential statistics and close reading. This paper must examine an interpretive problem and may be written on any text(s) you choose, literary or other. While the corpus does not have to be literary in nature, please incorporate into your analysis the critical foundation we build in class.
