@@ -45,7 +45,7 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 
 **Readings & Presentation:** All readings must be completed before class.
 
-Once during the semester, each student will be required to make a brief (5 minute) presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should conclude by raising a few questions that will spur our discussion. Students must submit the summary that will guide the presentation following the [template](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/presentation-template.md).
+Once during the semester, each student will be required to make a brief (5 minute) presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should conclude by raising a few questions that will spur our discussion. Students must submit the summary that will guide the presentation following the [template](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/presentation-template.md).
 
 Additionally, once during the semester, each student will be required to be the first respondent. Minimally, the presenter will email the respondent (and me) their presentation the evening before class by 5pm, so that the respondent has time to form a thoughtful, 2-minute response (which does not need to be submitted). The presenter and respondent may wish to coordinate beforehand, but this is not required.
 
@@ -63,6 +63,7 @@ In preparation for the final paper, students will be required to fulfill several
 In keeping with the best practices of the field, students will be required to make available their data set (pending copyright) and code through GitHub. Preliminary code will be posted during **Week 10** and final code – capable of reproducing your findings – before our last class. Please send me the link to your materials before this class so I can create an image and we can all run your code together!
 
 During our final class, students will deliver a 3-5 minute elevator pitch describing the challenge being explored and any decisions made or roadblocks faced while applying statistical methods in literature. This will act as a kind of rough draft for the paper, as well as offer an opportunity for feedback from your peers. The final draft of the paper is due on **December 11**.
+
 
 **Grading Rubric:**
 
