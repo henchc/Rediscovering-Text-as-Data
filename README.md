@@ -45,9 +45,7 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 
 **Readings & Presentation:** All readings must be completed before class.
 
-Once during the semester, each student will be required to make a brief (5 minute) presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should conclude by raising a few questions that will spur our discussion. Students must submit the summary that will guide the presentation following the [template](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/presentation-template.md).
-
-Additionally, once during the semester, each student will be required to be the first respondent. Minimally, the presenter will email the respondent (and me) their presentation the evening before class by 5pm, so that the respondent has time to form a thoughtful, 2-minute response (which does not need to be submitted). The presenter and respondent may wish to coordinate beforehand, but this is not required.
+Once during the semester, each student will be required to make a brief presentation on the week's critical reading that will initiate our discussion. This presentation should offer a summary of the article, including any context that may help us to understand its concerns, and describe some of the problems it explores. The presentation should begin by raising a few questions that will spur our discussion before presenting what has interested you. Students must submit the summary that will guide the presentation following the [template](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/presentation-template.md).
 
 Sign-up link [here](https://docs.google.com/a/berkeley.edu/spreadsheets/d/13ctS2XE99lfSemm4dTyxdujW3Kh0m7czmmAHIxxiZAA/edit?usp=sharing)!
 
