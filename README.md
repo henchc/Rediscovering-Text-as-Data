@@ -29,10 +29,10 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 | ---   | ---       | ---       | ---         |
 |  1 - 8/28  | [Introduction](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/01-Text-as-Data/Intro.ipynb) |   | |
 |  2 - 9/11  | [Operationalizing](https://github.com/henchc/Rediscovering-Text-as-Data/tree/master/02-Operationalizing) | (1) [Sophocles, *Antigone*](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/readings/Sophocles-Antigone-(selection).pdf); (2) [Moretti, "Operationalizing"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/readings/Moretti-Operationalizing.pdf)  | [Notebook](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/02-Operationalizing/01-Operationalizing.ipynb) Exercises  |
-|  3 - 9/18 | Close Reading I  | (1) [Kafka, "The Judgement"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Kafka-The-Judgement.pdf); (2) [Berman, "Tradition and Betrayal in 'Das Urteil'"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Berman-Tradition-and-Betrayal.pdf); (3) Kafka's [short biography](https://en.wikipedia.org/wiki/Franz_Kafka#Life) on Wikipedia | Close Reading Paper - Assigned  |
-|  4 - 9/25 | Stylometry & Strings  | (1) Caedmon's Hymn; (2) Thornbury, "The Poet Alone"  | Notebook Exercises|
-|  5 - 10/02  | Intro to NLTK & SpaCy  |   | Close Reading Paper - Due; Notebook Exercises |
-|  6 - 10/09  | Entity Extraction & Network Analysis  |  | Notebook Exercises  |
+|  3 - 9/18 | Close Reading I & Strings  | (1) [Kafka, "The Judgement"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Kafka-The-Judgement.pdf); (2) [Berman, "Tradition and Betrayal in 'Das Urteil'"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/03-Close-Reading-I/readings/Berman-Tradition-and-Betrayal.pdf); (3) Kafka's [short biography](https://en.wikipedia.org/wiki/Franz_Kafka#Life) on Wikipedia | Notebook Exercises  |
+|  4 - 9/25 | Stylometry  | (1) Caedmon's Hymn; (2) Thornbury, "The Poet Alone"  | Close Reading Paper - Assigned; Notebook Exercises|
+|  5 - 10/02  | Intro to NLTK & SpaCy  |   | Notebook Exercises |
+|  6 - 10/09  | Entity Extraction & Network Analysis  |  | Close Reading Paper - Due; Notebook Exercises  |
 |  7 - 10/16 | Textual Similarity & Clustering  |  | Notebook Exercises  |
 |  8 - 10/23  | Classification |  | Final Project: Consultation; Notebook Exercises  |
 |  9 - 10/30  | Topic Modeling  |  | Final Project: Proposal; Notebook Exercises  |
