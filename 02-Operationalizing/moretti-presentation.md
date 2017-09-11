@@ -16,7 +16,7 @@
 
 Moretti looks at character-space and the most distinctive words of characters in dramas using computational techniques in order to prove or disprove existing literary theories through *measurement* (Woloch 2003, Hegel 1818-1829).
 
-## 3) Level of Engagement
+## 3) Level of Engagement/Analysis
 
 Moretti is interested in relationships between characters and what role they play in a drama, more specifically in tragedy. He also considers the actual dialogue text toward the end of the article in his discussion of most distinctive words and stichomythia.
 
@@ -29,7 +29,7 @@ Moretti makes arguments both concerning the general application of Digital Human
 3. We can use two criteria for *measuring* protagonism: "the volume of words, and the number of
 interactions." [5]
 4. A new hypothesis of character *function* ('conflict', 'mediation', and 'obedience') instead of *importance* ('minor', 'minor minor'). [8]
-5. Moretti argues that, at least in *Antigone*, Hegel's emphasis of direct face-to-face conflict as the location of "ethicially justified pathos" is misidentified. This pathos actually lies within Antigone's conversations with Ismene, the Chorus, and others, and not with the antagonist.
+5. Moretti argues that, at least in *Antigone*, Hegel's emphasis of direct face-to-face conflict as the location of "ethically justified pathos" is misidentified. This pathos actually lies within Antigone's conversations with Ismene, the Chorus, and others, and not with the antagonist.
 
 ## 5) Method
 
