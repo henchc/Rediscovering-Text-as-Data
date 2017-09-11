@@ -2,15 +2,15 @@
 
 ## 1) Discussion Questions
 
-Write at least 3 questions that you have regarding the reading which can be discussed in class.
+Write at least 3 questions that you have regarding the reading which can be discussed in class. Try to move beyond questions about content to more analytical, methodological, or fundamental questions.
 
 ## 2) Summary
 
-Write one sentence summarizing the article.
+Summarize the article in three sentences or less.
 
-## 3) Level of Engagement
+## 3) Level of Engagement/Analysis
 
-At what level does the author of the article engage with the primary source? Does the author address the contemporary culture? The text itself? Specific characters? The life of the primary text's author? The meaning of the text? An allegory? Character relationships? Formal characteristics (rhyme, meter, etc.)?
+At what level does the author of the article engage with the primary source? Does the author address the contemporary culture? The text itself? Specific characters? The life of the primary text's author? The meaning of the text? An allegory? Character relationships? Formal characteristics (rhyme, meter, etc.)? What is the unit of analysis?
 
 ## 4) Argument/Stakes
 
