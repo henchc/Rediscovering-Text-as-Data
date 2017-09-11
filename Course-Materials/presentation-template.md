@@ -29,3 +29,7 @@ This applies more to the data analysis than the humanistic conclusion.
 ## 7) Broader Application
 
 Think about broadening the stakes of the argument. How could this method be applied to other disciplines or in industry?
+
+## 8) Discussion Questions
+
+Write at least 3 questions that you have regarding the reading which can be discussed in class.

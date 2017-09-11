@@ -48,3 +48,15 @@ Where is the code for this project?
 ## 7) Broader Application
 
 Both the idea of character-space and the idea of MDW are drawing from the more general goal of distinguishing different texts. In this case, we are looking at the text belonging to different speakers. But this can be generalized to texts of different articles, Twitter users, Facebook profiles, etc. We could look at the "Character-Space" allotted to different articles on Wikipedia (either different languages or topics) or the most distinctive words across political candidates on Twitter or in their campaign speeches.
+
+## 8) Discussion Questions
+
+1. What does Moretti mean when he writes: "I assumed, like so many others, that the new approach would change the history, rather than the theory of literature" [9] ?
+
+2. Moretti ends his article with an ominous statement: ""because, if the data revolt against their creator, then the concept is really in trouble." [13] While Moretti certainly admits that not *all* concepts can be operationalized, what does this statement mean for existing theories?
+
+3. What other literary theories could be easily operationlized?
+
+4. At the beginning of the article Moretti constantly returns to the popular critique of the Digital Humanities as "making existing knowledge somewhat better, but not really different." [5]
+
+5. To what degree can (should) humanist conclusions be "reproducible"?
