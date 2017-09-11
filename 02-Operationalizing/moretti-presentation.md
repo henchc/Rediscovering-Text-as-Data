@@ -1,6 +1,6 @@
 # Moretti, "Operationalizing"
 
-## 1) Discussion Questions
+## 1) [Discussion Questions](https://goo.gl/forms/nMqhv3Aq8oljqJqs1)
 
 1. At the beginning of the article Moretti constantly returns to the popular critique of the Digital Humanities as "making existing knowledge somewhat better, but not really different." [5] Can computational approaches to literature really tell us anything new? How might we do that?
 

@@ -49,8 +49,10 @@ Once during the semester, each student will be required to make a brief (5 minut
 
 Additionally, once during the semester, each student will be required to be the first respondent. Minimally, the presenter will email the respondent (and me) their presentation the evening before class by 5pm, so that the respondent has time to form a thoughtful, 2-minute response (which does not need to be submitted). The presenter and respondent may wish to coordinate beforehand, but this is not required.
 
+Sign-up link [here](https://docs.google.com/a/berkeley.edu/spreadsheets/d/13ctS2XE99lfSemm4dTyxdujW3Kh0m7czmmAHIxxiZAA/edit?usp=sharing)!
 
-**Participation:** Please prepare to speak at least once during discussion, each class. Your voice is valuable and your perspective unique.
+
+**Participation:** Please prepare to speak at least once during discussion, each class. Your voice is valuable and your perspective unique. We will be completing Google Form surveys throughout the course for purposes of data collection and keeping tabs on participation.
 
 
 **Close Reading Paper:** The first paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper will be written on one of the literary texts we have read in the first four weeks of class, and I will offer an optional prompt for each. The paper should be 2 pages (double-spaced) in length.
