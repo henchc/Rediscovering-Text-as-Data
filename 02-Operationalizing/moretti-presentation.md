@@ -24,11 +24,11 @@ Moretti is interested in relationships between characters and what role they pla
 
 Moretti makes arguments both concerning the general application of Digital Humanities methods, as well as *Antigone* the individual text:
 
-1. "operationalizing" can tell us that such a concept *exists* in the first place [4]
+1. "Operationalizing" can tell us that such a concept *exists* in the first place. [4]
 2. measuring a concept is *precise* [5]
 3. We can use two criteria for *measuring* protagonism: "the volume of words, and the number of
 interactions." [5]
-4. A new hypothesis of character *function* ('conflict', 'mediation', and 'obedience') instead of *importance* ('minor', 'minor minor'). [8]
+4. Moretti proposes a new hypothesis of character *function* ('conflict', 'mediation', and 'obedience') instead of *importance* ('minor', 'minor minor'). [8]
 5. Moretti argues that, at least in *Antigone*, Hegel's emphasis of direct face-to-face conflict as the location of "ethically justified pathos" is misidentified. This pathos actually lies within Antigone's conversations with Ismene, the Chorus, and others, and not with the antagonist.
 
 ## 5) Method
