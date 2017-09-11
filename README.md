@@ -70,8 +70,7 @@ During our final class, students will deliver a 3-5 minute elevator pitch descri
 |   |  Category | Weight  |
 | ---   | ---       | ---       |
 |  Participation:  | Discussion  | 20%  |
-|    | Readings Presentation  | 5%  |
-|    | First Respondent  | 5%  |
+|    | Readings Presentation  | 10%  |
 |  Projects:  | Close Reading Paper  | 15%  |
 |    | Project Milestones  | 25%  |
 |    | Final Paper  | 25%  |
