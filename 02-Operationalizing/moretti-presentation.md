@@ -51,12 +51,12 @@ Both the idea of character-space and the idea of MDW are drawing from the more g
 
 ## 8) Discussion Questions
 
-1. What does Moretti mean when he writes: "I assumed, like so many others, that the new approach would change the history, rather than the theory of literature" [9] ?
+1. At the beginning of the article Moretti constantly returns to the popular critique of the Digital Humanities as "making existing knowledge somewhat better, but not really different." [5] Can computational approaches to literature really tell us anything new? How might we do that?
 
-2. Moretti ends his article with an ominous statement: ""because, if the data revolt against their creator, then the concept is really in trouble." [13] While Moretti certainly admits that not *all* concepts can be operationalized, what does this statement mean for existing theories?
+2. What does Moretti mean when he writes: "I assumed, like so many others, that the new approach would change the history, rather than the theory of literature" [9] ?
 
-3. What other literary theories could be easily operationlized?
+3. What other literary theories could be operationalized?
 
-4. At the beginning of the article Moretti constantly returns to the popular critique of the Digital Humanities as "making existing knowledge somewhat better, but not really different." [5]
+4. Moretti ends his article with an ominous statement: "because, if the data revolt against their creator, then the concept is really in trouble." [13] While Moretti certainly admits that not *all* concepts can be operationalized, what does this statement mean for existing theories?
 
 5. To what degree can (should) humanist conclusions be "reproducible"?
