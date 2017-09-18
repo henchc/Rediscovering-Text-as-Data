@@ -53,7 +53,7 @@ Sign-up link [here](https://docs.google.com/a/berkeley.edu/spreadsheets/d/13ctS2
 **Participation:** Please prepare to speak at least once during discussion, each class. Your voice is valuable and your perspective unique. We will be completing Google Form surveys throughout the course for purposes of data collection and keeping tabs on participation.
 
 
-**Close Reading Paper:** The first paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper will be written on one of the literary texts we have read in the first four weeks of class, and I will offer an optional prompt for each. The paper should be 2 pages (double-spaced) in length.
+**Close Reading Paper:** The first reflection-style paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper can be written on one of the literary texts we have read in the first four weeks of class, or any other text you're particularly interested in. The paper should be 2 pages (double-spaced) in length.
 
 
 **Final Project:** The course is built around the final project (which replaces the final exam). This consists of a 4-5 page (double-spaced) paper in which an argument is made about a text(s) using evidence from both inferential statistics and close reading. This paper must examine an interpretive problem and may be written on any text(s) you choose, literary or other. While the corpus does not have to be literary in nature, please incorporate into your analysis the critical foundation we build in class.
