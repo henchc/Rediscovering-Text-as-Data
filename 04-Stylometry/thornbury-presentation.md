@@ -37,6 +37,8 @@ The excerpt is a central part of Thornbury’s argument. If the excerpt was not 
 
 ## 5) Method
 
+**Stylometry**: The study of linguistic style that is commonly used to attribute authorship to documents. It analyzes specific patterns within a text to determine. Computers have enhanced stylometry methods because they can quickly and accurately interpret mass data. Methods include 
+
 - Thornbury divides the poem *Christ and Satan* into thirteen fitts and uses data to survey patterns of alliteration.
 > “As internal units, I used fitts as indicated in the manuscript with enlarged capitals and line divisions…”(163)
 
