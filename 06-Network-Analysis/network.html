@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-ui.js"></script>
+  <script type="text/javascript" src="scripts/d3.v3.min.js"></script>
+
+  <style type="text/css">
+	.node text {
+	  font: 9px helvetica;
+	}
+    .link {
+    stroke: #999;
+    stroke-opacity: .6;
+    }
+  </style>
+
+  <title>D3 Network Visualization</title>
+  
+</head>
+
+<body>
+  <script type="application/json" id="net">
+{"links": [{"target": 21, "source": 0, "weight": 1}, {"target": 25, "source": 0, "weight": 1}, {"target": 16, "source": 0, "weight": 1}, {"target": 12, "source": 0, "weight": 1}, {"target": 19, "source": 0, "weight": 1}, {"target": 4, "source": 0, "weight": 1}, {"target": 27, "source": 0, "weight": 1}, {"target": 6, "source": 0, "weight": 1}, {"target": 7, "source": 0, "weight": 1}, {"target": 22, "source": 0, "weight": 1}, {"target": 2, "source": 0, "weight": 1}, {"target": 9, "source": 0, "weight": 1}, {"target": 24, "source": 0, "weight": 1}, {"target": 11, "source": 0, "weight": 1}, {"target": 15, "source": 0, "weight": 1}, {"target": 26, "source": 0, "weight": 1}, {"target": 17, "source": 0, "weight": 1}, {"target": 21, "source": 1, "weight": 1}, {"target": 25, "source": 1, "weight": 1}, {"target": 2, "source": 1, "weight": 1}, {"target": 18, "source": 1, "weight": 1}, {"target": 3, "source": 1, "weight": 1}, {"target": 4, "source": 1, "weight": 1}, {"target": 24, "source": 1, "weight": 1}, {"target": 5, "source": 1, "weight": 1}, {"target": 19, "source": 1, "weight": 1}, {"target": 6, "source": 1, "weight": 1}, {"target": 7, "source": 1, "weight": 1}, {"target": 8, "source": 1, "weight": 1}, {"target": 23, "source": 1, "weight": 1}, {"target": 13, "source": 1, "weight": 1}, {"target": 14, "source": 1, "weight": 1}, {"target": 26, "source": 1, "weight": 1}, {"target": 27, "source": 1, "weight": 1}, {"target": 3, "source": 2, "weight": 1}, {"target": 4, "source": 2, "weight": 3}, {"target": 5, "source": 2, "weight": 1}, {"target": 6, "source": 2, "weight": 3}, {"target": 7, "source": 2, "weight": 4}, {"target": 8, "source": 2, "weight": 2}, {"target": 18, "source": 2, "weight": 1}, {"target": 10, "source": 2, "weight": 1}, {"target": 11, "source": 2, "weight": 1}, {"target": 12, "source": 2, "weight": 2}, {"target": 13, "source": 2, "weight": 2}, {"target": 14, "source": 2, "weight": 1}, {"target": 15, "source": 2, "weight": 2}, {"target": 25, "source": 2, "weight": 3}, {"target": 17, "source": 2, "weight": 1}, {"target": 16, "source": 2, "weight": 2}, {"target": 19, "source": 2, "weight": 3}, {"target": 24, "source": 2, "weight": 4}, {"target": 20, "source": 2, "weight": 1}, {"target": 21, "source": 2, "weight": 4}, {"target": 27, "source": 2, "weight": 4}, {"target": 22, "source": 2, "weight": 1}, {"target": 23, "source": 2, "weight": 1}, {"target": 26, "source": 2, "weight": 2}, {"target": 9, "source": 2, "weight": 1}, {"target": 21, "source": 3, "weight": 1}, {"target": 25, "source": 3, "weight": 1}, {"target": 18, "source": 3, "weight": 1}, {"target": 19, "source": 3, "weight": 1}, {"target": 4, "source": 3, "weight": 1}, {"target": 24, "source": 3, "weight": 1}, {"target": 5, "source": 3, "weight": 1}, {"target": 6, "source": 3, "weight": 1}, {"target": 7, "source": 3, "weight": 1}, {"target": 8, "source": 3, "weight": 1}, {"target": 27, "source": 3, "weight": 1}, {"target": 23, "source": 3, "weight": 1}, {"target": 13, "source": 3, "weight": 1}, {"target": 14, "source": 3, "weight": 1}, {"target": 26, "source": 3, "weight": 1}, {"target": 5, "source": 4, "weight": 1}, {"target": 6, "source": 4, "weight": 3}, {"target": 7, "source": 4, "weight": 3}, {"target": 8, "source": 4, "weight": 2}, {"target": 18, "source": 4, "weight": 1}, {"target": 10, "source": 4, "weight": 1}, {"target": 11, "source": 4, "weight": 1}, {"target": 13, "source": 4, "weight": 2}, {"target": 14, "source": 4, "weight": 1}, {"target": 15, "source": 4, "weight": 1}, {"target": 16, "source": 4, "weight": 2}, {"target": 25, "source": 4, "weight": 3}, {"target": 17, "source": 4, "weight": 1}, {"target": 12, "source": 4, "weight": 1}, {"target": 19, "source": 4, "weight": 3}, {"target": 24, "source": 4, "weight": 3}, {"target": 20, "source": 4, "weight": 1}, {"target": 21, "source": 4, "weight": 3}, {"target": 27, "source": 4, "weight": 3}, {"target": 22, "source": 4, "weight": 1}, {"target": 23, "source": 4, "weight": 1}, {"target": 26, "source": 4, "weight": 2}, {"target": 9, "source": 4, "weight": 1}, {"target": 21, "source": 5, "weight": 1}, {"target": 25, "source": 5, "weight": 1}, {"target": 18, "source": 5, "weight": 1}, {"target": 24, "source": 5, "weight": 1}, {"target": 27, "source": 5, "weight": 1}, {"target": 19, "source": 5, "weight": 1}, {"target": 6, "source": 5, "weight": 1}, {"target": 7, "source": 5, "weight": 1}, {"target": 8, "source": 5, "weight": 1}, {"target": 23, "source": 5, "weight": 1}, {"target": 13, "source": 5, "weight": 1}, {"target": 14, "source": 5, "weight": 1}, {"target": 26, "source": 5, "weight": 1}, {"target": 7, "source": 6, "weight": 3}, {"target": 8, "source": 6, "weight": 2}, {"target": 18, "source": 6, "weight": 1}, {"target": 10, "source": 6, "weight": 1}, {"target": 11, "source": 6, "weight": 1}, {"target": 13, "source": 6, "weight": 2}, {"target": 14, "source": 6, "weight": 1}, {"target": 15, "source": 6, "weight": 1}, {"target": 16, "source": 6, "weight": 2}, {"target": 25, "source": 6, "weight": 3}, {"target": 17, "source": 6, "weight": 1}, {"target": 12, "source": 6, "weight": 1}, {"target": 19, "source": 6, "weight": 3}, {"target": 24, "source": 6, "weight": 3}, {"target": 20, "source": 6, "weight": 1}, {"target": 21, "source": 6, "weight": 3}, {"target": 27, "source": 6, "weight": 3}, {"target": 22, "source": 6, "weight": 1}, {"target": 23, "source": 6, "weight": 1}, {"target": 26, "source": 6, "weight": 2}, {"target": 9, "source": 6, "weight": 1}, {"target": 24, "source": 7, "weight": 4}, {"target": 8, "source": 7, "weight": 2}, {"target": 18, "source": 7, "weight": 1}, {"target": 10, "source": 7, "weight": 1}, {"target": 11, "source": 7, "weight": 1}, {"target": 13, "source": 7, "weight": 2}, {"target": 14, "source": 7, "weight": 1}, {"target": 15, "source": 7, "weight": 2}, {"target": 16, "source": 7, "weight": 2}, {"target": 25, "source": 7, "weight": 3}, {"target": 17, "source": 7, "weight": 1}, {"target": 12, "source": 7, "weight": 2}, {"target": 19, "source": 7, "weight": 3}, {"target": 20, "source": 7, "weight": 1}, {"target": 21, "source": 7, "weight": 4}, {"target": 27, "source": 7, "weight": 4}, {"target": 22, "source": 7, "weight": 1}, {"target": 23, "source": 7, "weight": 1}, {"target": 26, "source": 7, "weight": 2}, {"target": 9, "source": 7, "weight": 1}, {"target": 21, "source": 8, "weight": 2}, {"target": 23, "source": 8, "weight": 1}, {"target": 16, "source": 8, "weight": 1}, {"target": 24, "source": 8, "weight": 2}, {"target": 19, "source": 8, "weight": 2}, {"target": 25, "source": 8, "weight": 2}, {"target": 18, "source": 8, "weight": 1}, {"target": 27, "source": 8, "weight": 2}, {"target": 10, "source": 8, "weight": 1}, {"target": 13, "source": 8, "weight": 2}, {"target": 14, "source": 8, "weight": 1}, {"target": 20, "source": 8, "weight": 1}, {"target": 26, "source": 8, "weight": 1}, {"target": 21, "source": 9, "weight": 1}, {"target": 12, "source": 9, "weight": 1}, {"target": 16, "source": 9, "weight": 1}, {"target": 19, "source": 9, "weight": 1}, {"target": 27, "source": 9, "weight": 1}, {"target": 22, "source": 9, "weight": 1}, {"target": 25, "source": 9, "weight": 1}, {"target": 24, "source": 9, "weight": 1}, {"target": 11, "source": 9, "weight": 1}, {"target": 15, "source": 9, "weight": 1}, {"target": 26, "source": 9, "weight": 1}, {"target": 17, "source": 9, "weight": 1}, {"target": 21, "source": 10, "weight": 1}, {"target": 25, "source": 10, "weight": 1}, {"target": 16, "source": 10, "weight": 1}, {"target": 19, "source": 10, "weight": 1}, {"target": 20, "source": 10, "weight": 1}, {"target": 24, "source": 10, "weight": 1}, {"target": 13, "source": 10, "weight": 1}, {"target": 27, "source": 10, "weight": 1}, {"target": 21, "source": 11, "weight": 1}, {"target": 17, "source": 11, "weight": 1}, {"target": 19, "source": 11, "weight": 1}, {"target": 27, "source": 11, "weight": 1}, {"target": 22, "source": 11, "weight": 1}, {"target": 24, "source": 11, "weight": 1}, {"target": 12, "source": 11, "weight": 1}, {"target": 25, "source": 11, "weight": 1}, {"target": 15, "source": 11, "weight": 1}, {"target": 26, "source": 11, "weight": 1}, {"target": 16, "source": 11, "weight": 1}, {"target": 21, "source": 12, "weight": 2}, {"target": 16, "source": 12, "weight": 1}, {"target": 19, "source": 12, "weight": 1}, {"target": 27, "source": 12, "weight": 2}, {"target": 22, "source": 12, "weight": 1}, {"target": 25, "source": 12, "weight": 1}, {"target": 24, "source": 12, "weight": 2}, {"target": 15, "source": 12, "weight": 2}, {"target": 26, "source": 12, "weight": 1}, {"target": 17, "source": 12, "weight": 1}, {"target": 21, "source": 13, "weight": 2}, {"target": 23, "source": 13, "weight": 1}, {"target": 16, "source": 13, "weight": 1}, {"target": 24, "source": 13, "weight": 2}, {"target": 19, "source": 13, "weight": 2}, {"target": 18, "source": 13, "weight": 1}, {"target": 27, "source": 13, "weight": 2}, {"target": 25, "source": 13, "weight": 2}, {"target": 14, "source": 13, "weight": 1}, {"target": 20, "source": 13, "weight": 1}, {"target": 26, "source": 13, "weight": 1}, {"target": 21, "source": 14, "weight": 1}, {"target": 25, "source": 14, "weight": 1}, {"target": 18, "source": 14, "weight": 1}, {"target": 24, "source": 14, "weight": 1}, {"target": 19, "source": 14, "weight": 1}, {"target": 27, "source": 14, "weight": 1}, {"target": 23, "source": 14, "weight": 1}, {"target": 26, "source": 14, "weight": 1}, {"target": 21, "source": 15, "weight": 2}, {"target": 16, "source": 15, "weight": 1}, {"target": 19, "source": 15, "weight": 1}, {"target": 27, "source": 15, "weight": 2}, {"target": 22, "source": 15, "weight": 1}, {"target": 25, "source": 15, "weight": 1}, {"target": 24, "source": 15, "weight": 2}, {"target": 26, "source": 15, "weight": 1}, {"target": 17, "source": 15, "weight": 1}, {"target": 17, "source": 16, "weight": 1}, {"target": 21, "source": 16, "weight": 2}, {"target": 19, "source": 16, "weight": 2}, {"target": 24, "source": 16, "weight": 2}, {"target": 20, "source": 16, "weight": 1}, {"target": 25, "source": 16, "weight": 2}, {"target": 27, "source": 16, "weight": 2}, {"target": 22, "source": 16, "weight": 1}, {"target": 26, "source": 16, "weight": 1}, {"target": 21, "source": 17, "weight": 1}, {"target": 19, "source": 17, "weight": 1}, {"target": 27, "source": 17, "weight": 1}, {"target": 22, "source": 17, "weight": 1}, {"target": 24, "source": 17, "weight": 1}, {"target": 25, "source": 17, "weight": 1}, {"target": 26, "source": 17, "weight": 1}, {"target": 21, "source": 18, "weight": 1}, {"target": 25, "source": 18, "weight": 1}, {"target": 24, "source": 18, "weight": 1}, {"target": 19, "source": 18, "weight": 1}, {"target": 27, "source": 18, "weight": 1}, {"target": 23, "source": 18, "weight": 1}, {"target": 26, "source": 18, "weight": 1}, {"target": 25, "source": 19, "weight": 3}, {"target": 24, "source": 19, "weight": 3}, {"target": 20, "source": 19, "weight": 1}, {"target": 21, "source": 19, "weight": 3}, {"target": 27, "source": 19, "weight": 3}, {"target": 22, "source": 19, "weight": 1}, {"target": 23, "source": 19, "weight": 1}, {"target": 26, "source": 19, "weight": 2}, {"target": 21, "source": 20, "weight": 1}, {"target": 25, "source": 20, "weight": 1}, {"target": 24, "source": 20, "weight": 1}, {"target": 27, "source": 20, "weight": 1}, {"target": 25, "source": 21, "weight": 3}, {"target": 24, "source": 21, "weight": 4}, {"target": 27, "source": 21, "weight": 4}, {"target": 22, "source": 21, "weight": 1}, {"target": 23, "source": 21, "weight": 1}, {"target": 26, "source": 21, "weight": 2}, {"target": 27, "source": 22, "weight": 1}, {"target": 25, "source": 22, "weight": 1}, {"target": 24, "source": 22, "weight": 1}, {"target": 26, "source": 22, "weight": 1}, {"target": 25, "source": 23, "weight": 1}, {"target": 27, "source": 23, "weight": 1}, {"target": 24, "source": 23, "weight": 1}, {"target": 26, "source": 23, "weight": 1}, {"target": 25, "source": 24, "weight": 3}, {"target": 27, "source": 24, "weight": 4}, {"target": 26, "source": 24, "weight": 2}, {"target": 27, "source": 25, "weight": 3}, {"target": 26, "source": 25, "weight": 2}, {"target": 27, "source": 26, "weight": 2}], "multigraph": false, "directed": false, "graph": {}, "nodes": [{"id": "3. GENT.", "number_of_lines": 17, "scenes": ["Scene 1"]}, {"id": "DUKE", "number_of_lines": 1, "scenes": ["Scene 3"]}, {"id": "OTH.", "number_of_lines": 867, "scenes": ["Scene 2", "Scene 1", "Scene 4", "Scene 3"]}, {"id": "DUKE.", "number_of_lines": 64, "scenes": ["Scene 3"]}, {"id": "LOD.", "number_of_lines": 76, "scenes": ["Scene 2", "Scene 1", "Scene 3"]}, {"id": "2. SEN.", "number_of_lines": 5, "scenes": ["Scene 3"]}, {"id": "BRA.", "number_of_lines": 139, "scenes": ["Scene 2", "Scene 1", "Scene 3"]}, {"id": "CAS.", "number_of_lines": 224, "scenes": ["Scene 2", "Scene 1", "Scene 4", "Scene 3"]}, {"id": "OFF.", "number_of_lines": 5, "scenes": ["Scene 2", "Scene 3"]}, {"id": "2. GENT.", "number_of_lines": 14, "scenes": ["Scene 1"]}, {"id": "GENTLEMEN.", "number_of_lines": 1, "scenes": ["Scene 2"]}, {"id": "2. MESS.", "number_of_lines": 2, "scenes": ["Scene 1"]}, {"id": "CLO.", "number_of_lines": 14, "scenes": ["Scene 1", "Scene 4"]}, {"id": "ALL.", "number_of_lines": 4, "scenes": ["Scene 2", "Scene 3"]}, {"id": "1. SEN.", "number_of_lines": 26, "scenes": ["Scene 3"]}, {"id": "BIAN.", "number_of_lines": 26, "scenes": ["Scene 1", "Scene 4"]}, {"id": "GRA.", "number_of_lines": 26, "scenes": ["Scene 2", "Scene 1"]}, {"id": "1. MUS.", "number_of_lines": 5, "scenes": ["Scene 1"]}, {"id": "1. MESS.", "number_of_lines": 9, "scenes": ["Scene 3"]}, {"id": "ROD.", "number_of_lines": 87, "scenes": ["Scene 2", "Scene 1", "Scene 3"]}, {"id": "HER.", "number_of_lines": 1, "scenes": ["Scene 2"]}, {"id": "EMIL.", "number_of_lines": 228, "scenes": ["Scene 2", "Scene 1", "Scene 4", "Scene 3"]}, {"id": "1. GENT.", "number_of_lines": 3, "scenes": ["Scene 1"]}, {"id": "SAIL.", "number_of_lines": 4, "scenes": ["Scene 3"]}, {"id": "IAGO.", "number_of_lines": 867, "scenes": ["Scene 2", "Scene 1", "Scene 4", "Scene 3"]}, {"id": "MON.", "number_of_lines": 58, "scenes": ["Scene 2", "Scene 1", "Scene 3"]}, {"id": "IAGO", "number_of_lines": 14, "scenes": ["Scene 1", "Scene 3"]}, {"id": "DES.", "number_of_lines": 353, "scenes": ["Scene 2", "Scene 1", "Scene 4", "Scene 3"]}]}
+</script>
+<div class="ui-widget">
+    <input id="search">
+    <button type="button" onclick="searchNode()">Search</button>
+</div>
+<form>
+    <h3> Link threshold 0 <input type="range" id="thersholdSlider" name="points" value = 0 min="0" max="10" onchange="threshold(this.value)"> 10 </h3>
+</form>
+  
+<script type='text/javascript'>
+
+//Constants for the SVG
+var width = 600,
+    height = 600;
+
+//Set up the colour scale
+var color = d3.scale.category20();
+
+//Set up the force layout
+var force = d3.layout.force()
+    .charge(-120)
+    .linkDistance(100)
+    .size([width, height]);
+
+//Append a SVG to the body of the html page. Assign this SVG as an object to svg
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+//Read the data from the net element 
+var net = document.getElementById('net').innerHTML;
+graph = JSON.parse(net);
+graphRec = JSON.parse(JSON.stringify(graph)); //Add this line 
+
+//Creates the graph data structure out of the json data
+force.nodes(graph.nodes)
+    .links(graph.links)
+    .start();
+
+//Create all the line svgs but without locations yet
+var link = svg.selectAll(".link")
+    .data(graph.links)
+    .enter().append("line")
+    .attr("class", "link")
+    .style("stroke-width", function (d) {
+    return Math.sqrt(d.value);
+});
+
+//Do the same with the circles for the nodes - no 
+var node = svg.selectAll(".node")
+    .data(graph.nodes)
+    .enter().append("g")
+    .attr("class", "node")
+    .call(force.drag)
+    .on('dblclick', connectedNodes); //Added code ;
+node.append("circle")
+    .attr("r", function(d) { return Math.log(d.number_of_lines); })
+    .style("fill", function (d) {
+    return color(d.group);
+})
+node.append("text")
+      // .attr("dx", 10)
+      // .attr("dy", ".35em")
+      .text(function(d) { return d.id })
+      // .style("stroke", "gray");
+//Now we are giving the SVGs co-ordinates - the force layout is generating the co-ordinates which this code is using to update the attributes of the SVG elements
+force.on("tick", function () {
+    link.attr("x1", function (d) {
+        return d.source.x;
+    })
+        .attr("y1", function (d) {
+        return d.source.y;
+    })
+        .attr("x2", function (d) {
+        return d.target.x;
+    })
+        .attr("y2", function (d) {
+        return d.target.y;
+    });
+    d3.selectAll("circle").attr("cx", function (d) {
+        return d.x;
+    })
+        .attr("cy", function (d) {
+        return d.y;
+    });
+    d3.selectAll("text").attr("x", function (d) {
+        return d.x;
+    })
+        .attr("y", function (d) {
+        return d.y;
+    });
+        node.each(collide(0.5)); //Added 
+});
+
+
+// for search function
+var optArray = [];
+for (var i = 0; i < graph.nodes.length - 1; i++) {
+    optArray.push(graph.nodes[i].id);
+}
+
+optArray = optArray.sort();
+
+$(function () {
+    $("#search").autocomplete({
+        source: optArray
+    });
+});
+
+
+function searchNode() {
+
+    //find the node
+
+    var selectedVal = document.getElementById('search').value;
+    var node = svg.selectAll(".node");
+
+    if (selectedVal == "none") {
+        node.style("stroke", "white").style("stroke-width", "1");
+    } else {
+        var selected = node.filter(function (d, i) {
+            return d.id != selectedVal;
+        });
+        selected.style("opacity", "0");
+        var link = svg.selectAll(".link")
+        link.style("opacity", "0");
+        d3.selectAll(".node, .link").transition()
+            .duration(5000)
+            .style("opacity", 1);
+
+
+    }
+} 
+
+//adjust threshold
+function threshold(thresh) {
+    graph.links.splice(0, graph.links.length);
+		for (var i = 0; i < graphRec.links.length; i++) {
+			if (graphRec.links[i].weight > thresh) {graph.links.push(graphRec.links[i]);}
+		}
+    restart();
+}
+//Restart the visualisation after any node and link changes
+function restart() {
+	link = link.data(graph.links);
+	link.exit().remove();
+	link.enter().insert("line", ".node").attr("class", "link");
+	node = node.data(graph.nodes);
+	node.enter().insert("circle", ".cursor").attr("class", "node").attr("r", 5).call(force.drag);
+	force.start();
+}
+
+// collisions
+var padding = 1, // separation between circles
+    radius=8;
+function collide(alpha) {
+  var quadtree = d3.geom.quadtree(graph.nodes);
+  return function(d) {
+    var rb = 2*radius + padding,
+        nx1 = d.x - rb,
+        nx2 = d.x + rb,
+        ny1 = d.y - rb,
+        ny2 = d.y + rb;
+    quadtree.visit(function(quad, x1, y1, x2, y2) {
+      if (quad.point && (quad.point !== d)) {
+        var x = d.x - quad.point.x,
+            y = d.y - quad.point.y,
+            l = Math.sqrt(x * x + y * y);
+          if (l < rb) {
+          l = (l - rb) / l * alpha;
+          d.x -= x *= l;
+          d.y -= y *= l;
+          quad.point.x += x;
+          quad.point.y += y;
+        }
+      }
+      return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+    });
+  };
+}
+
+//highlight node
+//Toggle stores whether the highlighting is on
+var toggle = 0;
+//Create an array logging what is connected to what
+var linkedByIndex = {};
+for (i = 0; i < graph.nodes.length; i++) {
+    linkedByIndex[i + "," + i] = 1;
+};
+graph.links.forEach(function (d) {
+    linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+//This function looks up whether a pair are neighbours
+function neighboring(a, b) {
+    return linkedByIndex[a.index + "," + b.index];
+}
+function connectedNodes() {
+    if (toggle == 0) {
+        //Reduce the opacity of all but the neighbouring nodes
+        d = d3.select(this).node().__data__;
+        node.style("opacity", function (o) {
+            return neighboring(d, o) | neighboring(o, d) ? 1 : 0.1;
+        });
+        link.style("opacity", function (o) {
+            return d.index==o.source.index | d.index==o.target.index ? 1 : 0.1;
+        });
+        //Reduce the op
+        toggle = 1;
+    } else {
+        //Put them back to opacity=1
+        node.style("opacity", 1);
+        link.style("opacity", 1);
+        toggle = 0;
+    }
+}
+
+</script>
+</body>
+</html>
