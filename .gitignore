@@ -11,7 +11,9 @@
 *notes.txt
 *course_l_s-88-2017-D_rosters.csv
 *split_csv.py
-assignments*
+assignments/*
+!assignments/clone-all.py
+!assignments/pull-all.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
