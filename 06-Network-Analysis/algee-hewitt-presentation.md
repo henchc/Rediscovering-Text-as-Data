@@ -1,5 +1,7 @@
 # Piper, Algee-Hewitt, Sinha, Ruths, and Vala, "Studying Literary Characters and Character Networks."
 
+Bjoern Skeel-Gjoerling
+
 ## 1) [Discussion Questions](https://goo.gl/forms/DeFIwTGM584J1sqG2)
 
 1. Do you find Algree-Hewitt's findings interesting? Why or why not?
