@@ -1,5 +1,7 @@
 # Wilkens, "The Geographic Imagination of Civil War-Era American Fiction"
 
+Rachel Phillips & Sarah Riley
+
 ## 1) [Discussion Questions](https://goo.gl/forms/eeN7IVP0vwQyY7TC3)
 
 1. Wilkens asserts that “population figures weren’t the whole story.” He describes time-lag in literature and the exciting appeal of war stories as important factors in the shifts in geographic representation of certain places associated with the war after it ended. What are potential other reasons for the results listed in Table 4, and figures 8 and 9?
