@@ -1,4 +1,6 @@
-There are two short poems below. One was reviewed and one is from the randomly selected group. Can you guess which is which? (Don't go Googling!)
+There are two short poems below. One was reviewed and one is from the randomly selected group. Can you guess which is which? (Don't go Googling!) 
+
+***Please [submit](https://goo.gl/forms/RRsPQt7PKeEtzZIX2) your guesses!***
 
 ## A Poet to his Beloved
 
@@ -34,3 +36,5 @@ And somewhere, yet, I hope to find the beauty <br>
 Of flowers springing from these long lost seeds; <br>
 Under thy hand divine that path of duty <br>
 May teem with flowers, where now I see but weeds.
+
+---
