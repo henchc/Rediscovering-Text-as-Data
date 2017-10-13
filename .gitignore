@@ -1,7 +1,8 @@
 07-Textual-Similarity/data/__MACOSX*
 07-Textual-Similarity/data/2_txtalb_Novel450/*
 07-Textual-Similarity/data/3686778
-08-Classification*
+08-Classification/data/*
+
 09-Topic-*
 10-Meta*
 11-Word-E*
@@ -11,7 +12,9 @@
 *notes.txt
 *course_l_s-88-2017-D_rosters.csv
 *split_csv.py
-assignments*
+assignments/*
+!assignments/clone-all.py
+!assignments/pull-all.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
