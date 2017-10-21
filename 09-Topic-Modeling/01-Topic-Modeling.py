@@ -208,8 +208,8 @@ try_topic_n
 
 
 # In[ ]:
-import multiprocessing as mp
-import dill as pickle
+from pathos.multiprocessing import ProcessingPool
+import pickle
 
 
 def try_topic_number(i):
@@ -221,7 +221,7 @@ def try_topic_number(i):
     return p, ll
 
 #  removing processes argument makes the code run on all available cores
-pool = mp.Pool()
+pool = ProcessingPool()
 results = pool.map(try_topic_number, try_topic_n)
 print(results)
 
