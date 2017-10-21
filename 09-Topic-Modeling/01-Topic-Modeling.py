@@ -221,9 +221,9 @@ def try_topic_number(i):
 
 #  removing processes argument makes the code run on all available cores
 pool = mp.Pool()
-results = pool.map_async(try_topic_number, try_topic_n)
-print(results.get())
+results = pool.map(try_topic_number, try_topic_n)
+print(results)
 
 import pickle
 
-pickle.dump(results.get(), open('scores.pkl', 'wb'))
+pickle.dump(results, open('scores.pkl', 'wb'))
