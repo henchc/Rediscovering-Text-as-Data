@@ -59,7 +59,7 @@ import multiprocessing
 
 
 def try_topic_number(i):
-    lda = LatentDirichletAllocation(n_components=i, max_iter=1)
+    lda = LatentDirichletAllocation(n_components=i, max_iter=1000)
     lda_model = lda.fit(dtm)
     test_dtm = cv.transform(test)
     p = lda_model.perplexity(test_dtm)
