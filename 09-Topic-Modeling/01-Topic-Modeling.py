@@ -208,8 +208,10 @@ try_topic_n
 
 
 # In[ ]:
-from pathos.multiprocessing import ProcessingPool
+#from pathos.multiprocessing import ProcessingPool
 import pickle
+from joblib import Parallel, delayed
+import multiprocessing
 
 
 def try_topic_number(i):
@@ -220,10 +222,16 @@ def try_topic_number(i):
     ll = lda_model.score(test_dtm)
     return p, ll
 
-#  removing processes argument makes the code run on all available cores
-pool = ProcessingPool()
-results = pool.map(try_topic_number, try_topic_n)
-print(results)
+
+num_cores = multiprocessing.cpu_count()
+
+results = Parallel(n_jobs=num_cores)(delayed(try_topic_number)(i)
+                                     for i in try_topic_n)
+
+# #  removing processes argument makes the code run on all available cores
+# pool = ProcessingPool()
+# results = pool.map(try_topic_number, try_topic_n)
+# print(results)
 
 
 pickle.dump(results, open('scores.pkl', 'wb'))
