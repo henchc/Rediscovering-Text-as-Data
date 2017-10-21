@@ -212,7 +212,7 @@ import multiprocessing as mp
 
 
 def try_topic_number(i):
-    lda = LatentDirichletAllocation(n_components=i, max_iter=1000)
+    lda = LatentDirichletAllocation(n_components=i, max_iter=1)
     lda_model = lda.fit(dtm)
     test_dtm = cv.transform(test)
     p = lda_model.perplexity(test_dtm)
@@ -221,7 +221,7 @@ def try_topic_number(i):
 
 #  removing processes argument makes the code run on all available cores
 pool = mp.Pool()
-results = pool.map(try_topic_number, try_topic_n)
+results = pool.map_async(try_topic_number, try_topic_n)
 print(results)
 
 import pickle
