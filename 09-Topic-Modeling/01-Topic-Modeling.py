@@ -209,6 +209,7 @@ try_topic_n
 
 # In[ ]:
 import multiprocessing as mp
+import pickle
 
 
 def try_topic_number(i):
@@ -219,11 +220,12 @@ def try_topic_number(i):
     ll = lda_model.score(test_dtm)
     return p, ll
 
-#  removing processes argument makes the code run on all available cores
-pool = mp.Pool()
-results = pool.map(try_topic_number, try_topic_n)
-print(results)
 
-import pickle
+def process():
+    # removing processes argument makes the code run on all available cores
+    pool = mp.Pool()
+    results = pool.map(try_topic_number, try_topic_n)
+    print(results)
+    pickle.dump(results, open('scores.pkl', 'wb'))
 
-pickle.dump(results, open('scores.pkl', 'wb'))
+process()
