@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import gensim
 
-metadata_tb = Table.read_table('data/txtlab_Novel150_English.csv')
+metadata_tb = Table.read_table('../data/txtlab_Novel150_English.csv')
 
 metadata_tb = Table.from_df(metadata_tb.to_df().sample(frac=1))
 
@@ -15,7 +15,7 @@ novel_list = []
 for filename in metadata_tb['filename']:
 
     # read in novel text as single string, make lowercase
-    with open('data/txtlab_Novel150_English/' + filename, 'r') as f:
+    with open('../data/txtlab_Novel150_English/' + filename, 'r') as f:
         novel = f.read()
 
     # clean up for TM analysis
