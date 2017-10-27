@@ -43,26 +43,33 @@ def fast_tokenizer(text):
 
 # Tokenize
 noveltokens_list = [fast_tokenizer(novel.lower()) for novel in novel_list]
+print(len(noveltokens_list))
+
 # Create dictionary based on corpus tokens
 # Each token is mapped to its own unique ID
-
 dictionary = gensim.corpora.dictionary.Dictionary(noveltokens_list)
+
 # Map lists of tokens to the dictionary IDs
 dictionary.doc2bow(['pride', 'prejudice', 'pride'])
+
 # Remove stopwords, (some!) proper names from dictionary
 from nltk.corpus import stopwords, words
 proper_names = [word.lower() for word in words.words() if word.istitle()]
 bad_words = stopwords.words('english') + proper_names
+
 # Map stopwords, proper names to dictionary IDs
 stop_ids = [_id for _id, count in dictionary.doc2bow(bad_words)]
 
 # Remove stopwords from dictionary mappings
 dictionary.filter_tokens(bad_ids=stop_ids)
+
 # Remove terms by document frequency
 dictionary.filter_extremes(no_below=15)
+
 # Create list of dictionary mappings by novel
 # This is gensim's version of a document-term matrix
-corpus = [dictionary.doc2bow(doc) for doc in noveltokens_list]
+corpus_train = [dictionary.doc2bow(doc) for doc in noveltokens_list[:120]]
+corpus_test = [dictionary.doc2bow(doc) for doc in noveltokens_list[120:]]
 
 
 try_topic_n = list(range(5, 200, 5))
@@ -75,13 +82,13 @@ import multiprocessing
 
 def try_topic_number(i):
     lda_model = gensim.models.LdaModel(
-        corpus,
+        corpus_train,
         num_topics=i,
         id2word=dictionary,
         iterations=1000,
         alpha='auto',
         passes=4)
-    return lda_model.log_perplexity(corpus)
+    return lda_model.log_perplexity(corpus_test)
 
 
 if __name__ == '__main__':
