@@ -79,7 +79,9 @@ def try_topic_number(i):
         corpus,
         num_topics=i,
         id2word=dictionary,
-        iterations=1000)
+        iterations=1000,
+        alpha='auto',
+        passes=4)
     return lda_model.log_perplexity(corpus)
 
 
