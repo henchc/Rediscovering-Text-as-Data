@@ -71,7 +71,7 @@ dictionary.filter_extremes(no_below=15)
 corpus = [dictionary.doc2bow(doc) for doc in noveltokens_list]
 
 
-try_topic_n = list(range(5, 200, 5))
+try_topic_n = list(range(5, 200, 2))
 
 
 import pickle
@@ -92,7 +92,7 @@ def try_topic_number(i):
         model=lda_model,
         corpus=corpus,
         dictionary=dictionary,
-        coherence='c_v')
+        coherence='u_mass')
 
     return cm.get_coherence()
 
