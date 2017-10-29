@@ -104,5 +104,4 @@ if __name__ == '__main__':
     results = Parallel(n_jobs=num_cores)(delayed(try_topic_number)(i)
                                          for i in try_topic_n)
 
-    print(results)
     pickle.dump(results, open('scores.pkl', 'wb'))
