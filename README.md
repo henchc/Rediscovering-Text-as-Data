@@ -39,7 +39,7 @@ We will dedicate two days to close reading, one at the beginning and one at the 
 |  10 - 11/06  | [Metadata](https://github.com/henchc/Rediscovering-Text-as-Data/tree/master/10-Metadata)  | (1) [Moretti, "Style, Inc."](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/10-Metadata/readings/Moretti-Style-Inc.pdf) | Final Project: Push preliminary code; [Notebook](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/10-Metadata/01-HTRC-Extracted%20Features.ipynb) Exercises; [Interact Link](http://datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/henchc/Rediscovering-Text-as-Data) |
 |  11 - 11/13 | [Word Embeddings](https://github.com/henchc/Rediscovering-Text-as-Data/tree/master/11-Word-Embeddings)  | (1) [Schmidt, "Rejecting the Gender Binary"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/11-Word-Embeddings/readings/Schmidt-Rejecting-the-Gender-Binary.pdf) | Final Project: Consultation; [Notebook](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/11-Word-Embeddings/01-Word-Embeddings.ipynb) Exercises; [Interact Link](http://datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/henchc/Rediscovering-Text-as-Data) |
 |  12 - 11/20 | [Close Reading II](https://github.com/henchc/Rediscovering-Text-as-Data/tree/master/12-Close-Reading-II) | (1) [McPherson, "Designing for Difference"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/12-Close-Reading-II/readings/McPherson-Designing-For-Differences.pdf); (2) [Rhody, "Why I Dig"](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/12-Close-Reading-II/readings/Rhody-Why-I-Dig.pdf)  |   |
-|  13 - 11/27 | Project Elevator Pitches  |  |  |
+|  13 - 11/27 | [Project Elevator Pitches](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/elevator-pitch.md)  |  |  |
 
 
 
@@ -56,13 +56,13 @@ Sign-up link [here](https://docs.google.com/a/berkeley.edu/spreadsheets/d/13ctS2
 ~~**Close Reading Paper:** The first reflection-style paper assigned will be a traditional, literature-class paper. You will make an interpretive argument based on a close reading of a text. This paper can be written on one of the literary texts we have read in the first four weeks of class, or any other text you're particularly interested in. The paper should be 2 pages (double-spaced) in length.~~
 
 
-**Final Project:** The course is built around the final project (which replaces the final exam). This consists of a 4-5 page (double-spaced) paper in which an argument is made about a text(s) using evidence from both inferential statistics and close reading. This paper must examine an interpretive problem and may be written on any text(s) you choose, literary or other. While the corpus does not have to be literary in nature, please incorporate into your analysis the critical foundation we build in class.
+**Final Project:** The course is built around the final project (which replaces the final exam). This consists of a [4-5 page (double-spaced) paper](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/final-paper.md) in which an argument is made about a text(s) using evidence from both inferential statistics and close reading. This paper must examine an interpretive problem and may be written on any text(s) you choose, literary or other. While the corpus does not have to be literary in nature, please incorporate into your analysis the critical foundation we build in class.
 
 In preparation for the final paper, students will be required to fulfill several milestones. During **Week 8**, students will meet with an instructor outside of class to consult on texts, interpretive problems, and statistical methods of interest. In **Week 9**, students will submit a one-paragraph ~250 word proposal for their final project including these three elements. We will meet again during **Week 11** to discuss progress and obstacles in the project, as well as any findings. In **Week 12**, students submit one page describing their methods and statistical findings, including one visualization.
 
 In keeping with the best practices of the field, students will be required to make available their data set (pending copyright) and code through GitHub. Preliminary code will be posted during **Week 10** and final code – capable of reproducing your findings – before our last class. Please send me the link to your materials before this class so I can create an image and we can all run your code together!
 
-During our final class, students will deliver a 3-5 minute elevator pitch describing the challenge being explored and any decisions made or roadblocks faced while applying statistical methods in literature. This will act as a kind of rough draft for the paper, as well as offer an opportunity for feedback from your peers. The final draft of the paper is due on **December 11**.
+During our final class, students will deliver a [3-5 minute elevator pitch](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/elevator-pitch.md) describing the challenge being explored and any decisions made or roadblocks faced while applying statistical methods in literature. This will act as a kind of rough draft for the paper, as well as offer an opportunity for feedback from your peers. The final draft of the paper is due on **December 11**.
 
 
 **Grading Rubric:**
@@ -73,7 +73,7 @@ During our final class, students will deliver a 3-5 minute elevator pitch descri
 |    | Readings Presentation  | 20%  |
 |  Projects:  | ~~Close Reading Paper~~  | ~~15%~~  |
 |    | Project Milestones  | 25%  |
-|    | Final Paper  | 25%  |
+|    | [Final Paper](https://github.com/henchc/Rediscovering-Text-as-Data/blob/master/Course-Materials/final-paper.md)  | 25%  |
 |  Assignments: | Notebook Exercises | 5% |
 
 
